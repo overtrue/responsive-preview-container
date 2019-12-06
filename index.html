@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  </head>
+  <body>
+    <div id="app">
+      <responsive-preview-container>
+        <div class="bg-gray-300 w-full h-full flex items-center justify-center">
+          <div class="bg-white w-full max-w-sm md:max-w-3xl md:flex">
+            <div class="md:w-1/2 p-8">
+              <h1 class="text-3xl text-center my-4 text-gray-700">SIGN IN</h1>
+              <form action class="text-gray-600">
+                <div class="py-3">
+                  <input type="email" placeholder="Email" class="border rounded w-full py-2 px-4 outline-none focus:shadow-outline" />
+                </div>
+                <div class="py-3">
+                  <input type="password" placeholder="Password" class="border rounded w-full py-2 px-4 outline-none focus:shadow-outline" />
+                </div>
+                <div class="py-3 leading-none">
+                  <div class="flex justify-between">
+                    <label class="flex"> <input type="checkbox" class="mr-1" /> Remember me </label>
+                    <a href="#" class="text-blue-400">Forgot email or password?</a>
+                  </div>
+                </div>
+                <div class="py-3">
+                  <div class="flex justify-between">
+                    <button class="border rounded w-1/2 py-2">REGISTER</button>
+                    <button class="border-blue-700 rounded w-1/2 py-2 bg-blue-600 text-white ml-2">SIGN IN</button>
+                  </div>
+                </div>
+                <div class="text-center text-gray-500 text-xs mt-4">&copy;2019 Acme Corp. All rights reserved.</div>
+              </form>
+            </div>
+            <div class="hidden md:block w-1/2 relative">
+              <div class="absolute bottom-0 right-0 m-4 text-xs text-gray-400">
+                Image by
+                <a
+                  href="https://pixabay.com/users/Pexels-2286921/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1869211"
+                  >Pexels</a
+                >
+                from
+                <a href="https://pixabay.com/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1869211"
+                  >Pixabay</a
+                >
+              </div>
+              <img
+                src="https://uploads.codesandbox.io/uploads/user/82cdcc2c-8728-4b14-b12c-f9020df6d2cf/iwj6-architecture-1869211_1280.jpg"
+                class="h-full w-full object-cover"
+                alt
+              />
+            </div>
+          </div>
+        </div>
+      </responsive-preview-container>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="./dist/app.js"></script>
+</html>
