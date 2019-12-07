@@ -1,4 +1,4 @@
-<h1 align="center">Vue Avatar Cropper</h1>
+<h1 align="center">Responsive preview container</h1>
 
 <p align="center"> :girl: A simple and elegant responsive prewview container.</p>
 
